@@ -71,7 +71,7 @@ components:
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../../account-map/modules/iam-roles | n/a |
-| <a name="module_managed_grafana"></a> [managed\_grafana](#module\_managed\_grafana) | cloudposse/stack-config/yaml//modules/remote-state | 1.5.0 |
+| <a name="module_managed_grafana"></a> [managed\_grafana](#module\_managed\_grafana) | cloudposse/stack-config/yaml//modules/remote-state | 1.8.0 |
 | <a name="module_ssm_parameters"></a> [ssm\_parameters](#module\_ssm\_parameters) | cloudposse/ssm-parameter-store/aws | 0.13.0 |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
