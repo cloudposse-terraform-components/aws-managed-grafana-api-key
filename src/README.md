@@ -8,11 +8,10 @@ tags:
 
 # Component: `managed-grafana-api-key`
 
-This component is responsible for provisioning an API Key for an Amazon Managed Grafana workspace.
+This component provisions an API Key for an Amazon Managed Grafana workspace.
 
-We use this API with the [Grafana Terraform provider](https://registry.terraform.io/providers/grafana/grafana/latest) in
-other `managed-grafana` sub components.
-
+It is intended for use with the [Grafana Terraform provider](https://registry.terraform.io/providers/grafana/grafana/latest) in
+other `managed-grafana` sub-components.
 ## Usage
 
 **Stack Level**: Regional
@@ -31,7 +30,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -97,12 +99,17 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_ssm_path_grafana_api_key"></a> [ssm\_path\_grafana\_api\_key](#output\_ssm\_path\_grafana\_api\_key) | The path in AWS SSM to the Grafana API Key provisioned with this component |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/managed-grafana/api-key) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-managed-grafana-api-key&utm_content=)
+
